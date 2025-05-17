@@ -3,14 +3,14 @@ const mongoose=require("mongoose")
 
 const categorySchema=new mongoose.Schema({
 
-    category:{
-        type:String,
-        required:true
-    }
+     NCategory: {
+    id: Number,
+    name: String
+  }
 })
 
 
 const Categories=mongoose.model('Categories',categorySchema)
 
 
-module.exports=Categories
+module.exports=Categories    

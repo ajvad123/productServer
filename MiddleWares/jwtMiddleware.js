@@ -21,6 +21,6 @@ const jwtMiddlewareFun = async (req, res, next) => {
     }catch(err){
         res.status(406).json(err)
     }
-  
+   
 }
-    module.exports=jwtMiddlewareFun 
+    module.exports=jwtMiddlewareFun  

@@ -16,7 +16,7 @@ router.post('/addsubcategory',jwtMiddle,subCategoryController.addsubCategory)
 
 
 router.get('/allproduct',jwtMiddle,productController.getAllProducts)
-router.get('/allcategory',jwtMiddle,categoryController.getallCategory)
+router.get('/allcategory',categoryController.getallCategory)
 router.get('/allsubcategory',jwtMiddle,subCategoryController.getAllSubcat)
 
 
